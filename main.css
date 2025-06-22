@@ -1,0 +1,1067 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+        'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.logo {
+    background-color: rgb(83, 76, 76);
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.logo span {
+    color: rgb(17, 202, 17);
+}
+
+.logo button {
+    width: 75px;
+    height: 27px;
+    border-radius: 5px;
+    background-color: rgb(18, 236, 18);
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(36, 28, 28, 0.863);
+    color: white;
+    align-items: center;
+    padding: 10px 170px;
+    height: 55px;
+}
+
+.fa-circle-play {
+    color: rgb(0, 255, 191);
+    font-size: 30px;
+}
+
+.frist-nav ul li {
+    list-style: none;
+}
+
+.criti {
+    color: rgb(0, 255, 191);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.frist-nav .next {
+    font-size: 7px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.secand-nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 30px;
+}
+
+.secand-nav ul li {
+    padding: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.secand-nav ul li:hover{
+    border-bottom: solid rgb(47, 245, 179);
+    cursor: pointer;
+}
+.fa-magnifying-glass {
+    color: rgb(0, 255, 191);
+}
+
+.secion {
+    background-image: linear-gradient(to right, rgb(26, 25, 25), rgb(45, 87, 71));
+    color: white;
+    height: 100%;
+    display: flex;
+}
+
+.image img {
+    width: 600px;
+    height: 700px;
+    margin-left: 100px;
+    opacity: 0.5;
+    margin-right: 100px;
+}
+
+.section-s {
+    padding-top: 110px;
+    padding-left: 170px;
+}
+
+.section-s h5 {
+    color: rgb(0, 255, 191);
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+.section-s h2 {
+    width: 700px;
+    font-size: 60px;
+}
+
+.section-s span {
+    color: rgb(0, 255, 191);
+}
+
+.section-s hr {
+    color: rgb(0, 255, 191);
+    width: 70px;
+    margin: 10px;
+}
+
+.section-s p {
+    width: 500px;
+    font-size: 14px;
+}
+
+.section-s ul {
+    display: flex;
+    margin-top: 70px;
+    font-size: 13px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.section-s ul li {
+    padding: 10px;
+    list-style: none;
+}
+
+.section-s ul hr {
+    width: 80px;
+    color: rgb(66, 61, 61);
+    font-size: 1px;
+    margin-right: 50px;
+
+}
+
+.section-s h4 {
+    font-size: 12px;
+    color: rgb(0, 255, 191);
+    margin-left: 50px;
+
+}
+
+.secion-c {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 40px 200px;
+    height: 500px;
+}
+
+.secion-c .one-l {
+    margin: 10px;
+    padding: 10px;
+}
+
+.secion-c .one-l h1 {
+    color: rgb(118, 235, 205);
+    font-size: 13px;
+    padding: 5px;
+}
+
+.secion-c .one-l h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.secion-c .one-l span {
+    color: rgb(103, 236, 203);
+
+}
+
+.secion-c .one-l p {
+    width: 320px;
+    font-size: 15px;
+    margin: 11px;
+}
+
+.secion-c .one-l hr {
+    color: rgb(107, 214, 178);
+    width: 65px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.secion-c .one-l button {
+    width: 70px;
+    height: 35px;
+    background-color: rgb(60, 247, 206);
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    margin: 20px;
+}
+.secion-c .one-l button:hover{
+background-color:rgb(75, 219, 188) ;
+
+}
+.one-r {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    margin-right: 110px;
+    align-items: center;
+}
+
+.one-r h3 {
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+
+}
+
+.one-r p {
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.card-1 {
+    background-color: rgb(36, 35, 35);
+    width: 170px;
+    height: 140px;
+    align-items: center;
+}
+
+.card-2 {
+    background-image: linear-gradient(to bottom, black, rgb(25, 48, 37));
+    width: 170px;
+    height: 140px;
+    margin: 10px;
+    align-items: center;
+
+}
+
+.card-3 {
+    background-image: linear-gradient(to bottom, black, rgb(25, 48, 37));
+    width: 170px;
+    height: 140px;
+    align-items: center;
+
+}
+
+.card-4 {
+    background-color: rgb(24, 23, 23);
+    width: 170px;
+    height: 140px;
+    margin: 10px;
+    align-items: center;
+
+
+}
+
+.one-r img {
+    width: 40px;
+    height: 40px;
+    margin: 3px 70px;
+    align-items: center;
+
+}
+
+.section-2 {
+    background-color: rgb(12, 12, 12);
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.container {
+    width: 500px;
+    margin-top: 20px;
+}
+
+.container h1 {
+    color: rgb(107, 214, 178);
+    font-size: 10px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.container h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container span {
+    color: rgb(107, 214, 178);
+
+}
+
+.container hr {
+    color: rgb(107, 214, 178);
+    width: 65px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.container p {
+    width: 500px;
+    font-size: 13px;
+}
+
+.about {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.about-1 {
+    display: flex;
+    width: 60px;
+    margin-right: 60px;
+}
+
+.about-1 p {
+    font-size: 10px;
+}
+
+.about-1 img {
+    width: 40px;
+    margin: 5px 8px;
+}
+
+.section-3 {
+    background-image: linear-gradient(to left, black, rgb(16, 53, 41));
+    height: 260px;
+}
+
+.section-3 ul {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 60px 350px;
+}
+
+.section-3 ul li {
+    list-style: none;
+    align-items: center;
+}
+
+.section-3 ul li h6 {
+    font-size: 30px;
+    color: rgb(107, 214, 178);
+    text-align: center;
+}
+
+.section-3 ul li span {
+    color: white;
+    font-size: 17px;
+}
+
+.section-3 h2 {
+    font-size: 11px;
+    text-align: center;
+    margin: 5px;
+}
+
+.section-3 img {
+    align-items: center;
+    margin-left: 15px;
+}
+
+.section-4 {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 60px 150px;
+    align-items: center;
+}
+
+.section-4 .sction-l {
+    width: 900px;
+    margin-left: 100px;
+}
+
+.section-4 .sction-l hr {
+    color: rgb(107, 214, 178);
+    width: 65px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.section-4 .sction-l h6 {
+    color: rgb(107, 214, 178);
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 16px;
+}
+
+.section-4 .sction-l h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.section-4 .sction-l h1 span {
+    color: rgb(107, 214, 178);
+
+}
+
+.section-4 .sction-l h3 {
+    font-size: 13px;
+}
+
+.section-4 .sction-l p {
+    width: 700px;
+    font-size: 15px;
+    padding: 20px 0px;
+    margin-top: 30px 0px;
+}
+
+.section-4 .sction-l .image {
+    display: flex;
+
+}
+
+.section-4 .sction-l .image img {
+    width: 350px;
+    height: 350px;
+    margin: 0;
+    padding: 0;
+}
+
+.section-4 .sction-r {
+    width: 750px;
+    margin: 20px 0px;
+    margin-right: 100px;
+
+}
+
+.section-4 .sction-r img {
+    width: 390px;
+    height: 360px;
+    padding: 10px;
+}
+
+.section-5 {
+    color: white;
+    background-image: linear-gradient(to right,black, rgb(14, 46, 36)),url(imagess\ 4/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg);
+    height: 250px;
+
+}
+
+.section-5 ul {
+    padding: 120px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-5 ul li {
+    list-style: none;
+}
+
+.section-5 ul li img {
+    width: 150px;
+    filter: grayscale(100%);
+}
+
+.section-6 {
+    background-color: black;
+    height: 100vh;
+    color: white;
+    display: flex;
+}
+
+.section-6 .section-l {
+    margin-top: 50px;
+    margin-left: 120px;
+    position: relative;
+}
+
+.section-6 .section-l h6 {
+    color: rgb(83, 199, 160);
+    font-size: 10px;
+    font-weight: bold;
+    padding: 11px;
+    letter-spacing: 1px;
+
+}
+
+.section-6 .section-l h1 {
+    font-size: 24px;
+    width: 240px;
+}
+
+.section-6 .section-l h1 span {
+    color: rgb(83, 199, 160);
+
+}
+
+.section-6 .section-l img {
+    margin-top: 70px;
+    width: 600px;
+    height: 350px;
+
+}
+
+.section-6 .section-r {
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.section-6 .section-r p {
+    font-size: 13px;
+    margin: 30px;
+    color: rgb(161, 168, 168);
+}
+
+.section-6 .section-r ul li {
+    list-style: none;
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.section-6 .section-r img {
+    margin-top: 100px;
+    width: 600px;
+    height: 350px;
+}
+
+.section-7 {
+    color: white;
+    background-image: url(imagess\ 4/Bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.section-7 .section-p {
+    padding: 50px 300px;
+    align-items: center;
+    background-image: url(imagess\ 4/Bg-1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-7 .section-p h5 {
+    color: rgb(83, 199, 160);
+    font-size: 10px;
+    letter-spacing: 1px;
+    margin: 4px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.section-7 .section-p h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.section-7 .section-p h1 span {
+    color: rgb(83, 199, 160);
+
+}
+
+.section-7 .section-p p {
+    text-align: center;
+    font-size: 13px;
+    margin: 8px;
+}
+
+.section-7 .section-p hr {
+    color: rgb(107, 214, 178);
+    width: 65px;
+    font-weight: bold;
+    margin-left: 460px;
+}
+
+.section-7 .section-o {
+    display: flex;
+    flex-wrap: wrap;
+    width: 850px;
+    height: 480px;
+    margin-left: 450px;
+}
+
+.section-7 .section-o .card {
+    width: 360px;
+    height: 180px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    margin: 5px;
+}
+
+.section-7 .section-o .card img {
+    width: 90px;
+    height: 150px;
+    margin-left: 0px;
+    filter: grayscale(90%);
+    margin-bottom: 50px;
+
+}
+
+.section-7 .section-o .card h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 4px;
+    width: 150px;
+}
+
+.section-7 .section-o .card h6 {
+    color: rgba(90, 221, 160, 0.815);
+    font-size: 13px;
+    font-weight: bold;
+    width: 50px;
+    margin-top: 10px;
+}
+
+.section-7 .section-o .card p {
+    font-size: 10px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.section-7 .section-o .card ul {
+    display: flex;
+    color: rgb(107, 214, 178);
+    justify-content: space-between;
+    width: 60px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-7 .section-o .card ul li {
+    list-style: none;
+    font-size: 12px;
+}
+
+.section-8 {
+    background-color: black;
+    color: white;
+}
+
+.section-8 .header {
+    text-align: center;
+}
+
+.section-8 .header h6 {
+    color: rgb(107, 214, 178);
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.section-8 .header h1 {
+    font-size: 27px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.section-8 .header h1 span {
+    color: rgb(107, 214, 178);
+
+}
+
+.section-8 .header hr {
+    color: rgb(107, 214, 178);
+    width: 62px;
+    font-weight: bold;
+    margin-left: 770px;
+    text-align: center;
+}
+
+.section-8 .header p {
+    font-size: 12px;
+    padding: 4px;
+    width: 700px;
+    text-align: center;
+    margin-left: 480px;
+
+}
+
+.section-8 .images {
+    width: 620px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 470px;
+    margin-top: 23px;
+}
+
+.section-8 .images img {
+    width: 200px;
+    height: 200px;
+    padding: 4px;
+}
+
+.section-9 {
+    color: white;
+    display: flex;
+    min-height: 500px;
+    background-image: url(imagess\ 4/adadad.jpg);
+    background-position: center;
+    background-size: cover;
+    filter: 100%;
+}
+
+.section-9 .section-l {
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.section-9 .section-l h6 {
+    color: aquamarine;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.section-9 .section-l h1 {
+    font-size: 30px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.section-9 .section-l span {
+    color: aquamarine;
+
+}
+
+.section-9 .section-l p {
+    font-size: 15px;
+    margin-bottom: 40px;
+    color: rgb(155, 152, 152);
+}
+
+.section-9 .section-l hr {
+    color: rgb(107, 214, 178);
+    width: 62px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.section-9 .section-l button {
+    width: 150px;
+    height: 35px;
+    border: none;
+    background-color: rgb(119, 241, 201);
+    color: white;
+    margin: 7px 0px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.section-9 .section-r {
+    margin-top: 80px;
+    margin-right: 200px;
+    width: 600px;
+    height: 180px;
+    background-color: rgba(39, 39, 41, 0.226);
+    opacity: 1px;
+}
+
+.section-9 .section-r p {
+    font-size: 13px;
+    margin: 25px 20px;
+    color: rgb(155, 152, 152);
+
+}
+
+.section-9 .section-r .frist {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 20px;
+}
+
+.frist-1 {
+    display: flex;
+    margin: 7px;
+}
+
+.cont ul {
+    padding: 4px;
+}
+
+.cont ul li {
+    list-style: none;
+    font-size: 13px;
+}
+
+.cont .last {
+    color: rgb(107, 214, 178);
+    font-size: 10px;
+}
+
+.frist-1 img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+    margin-right: 7px;
+}
+
+.section-10 {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    padding: 20px 60px;
+
+}
+
+.section-10 h6 {
+    color: rgb(107, 214, 178);
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+
+}
+
+.section-10 h1 {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.section-10 h1 span {
+    color: rgb(107, 214, 178);
+
+}
+
+.section-10 hr {
+    color: rgb(107, 214, 178);
+    width: 65px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 49%;
+
+}
+
+.fa-calendar-days {
+    color: aquamarine;
+}
+
+.section-10 .main-p {
+    font-size: 15px;
+    margin-top: 10px;
+    width: 600px;
+    margin-left: 36%;
+    text-align: center;
+}
+
+.section-10 .card {
+    display: flex;
+    justify-content: space-around;
+    margin: 80px;
+
+}
+
+.section-10 .cards {
+    width: 350px;
+    height: 450px;
+    margin: 5px;
+
+}
+
+.section-10 .cards img {
+    width: 350px;
+    height: 300px;
+}
+
+.section-10 .cards h2 {
+    color: rgb(107, 214, 178);
+    margin: 3px;
+    font-size: 25px;
+}
+
+.section-10 .cards p {
+    font-size: 11px;
+    margin: 20px 0px;
+}
+
+.section-10 .cards ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-10 .cards ul li {
+    list-style: none;
+    margin: 5px;
+    font-size: 11px;
+}
+
+.section-11 {
+    background-image: url(imagess\ 4/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 50px 100px;
+    display: flex;
+}
+
+.section-11 .left {
+    width: 450px;
+    height: 350px;
+    color: rgb(83, 248, 193);
+    border-style: solid;
+    border-color: aquamarine;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.section-11 .left label {
+    margin-left: 5px;
+}
+
+.section-11 .left input {
+    color: aquamarine;
+    width: 390px;
+    border-style: solid;
+    border-color: aquamarine;
+    background-color: black;
+    padding: 5px;
+    margin: 9px;
+
+}
+
+.section-11 .left button {
+    width: 320px;
+    height: 30px;
+    background-color: aqua;
+    border: none;
+    margin: 10px;
+}
+
+.section-11 .right {
+    width: 500px;
+    height: 400px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.fa-solid {
+    color: aquamarine;
+}
+
+.section-11 .right h6 {
+    font-size: 10px;
+    color: aquamarine;
+    letter-spacing: 1px;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+
+.section-11 .right h1 {
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.section-11 .right h1 span {
+    color: aquamarine;
+}
+
+.section-11 hr {
+    color: rgb(107, 214, 178);
+    width: 65px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 20%;
+}
+
+.section-11 .right p {
+    font-size: 10px;
+    color: #464343;
+}
+
+.section-11 .main-d {
+    display: flex;
+    margin: 11px;
+}
+
+.www {
+    color: aquamarine;
+}
+
+.main-2 .main-1 ul li {
+    list-style: none;
+    padding: 14px;
+}
+
+.main-2 ul li {
+    list-style: none;
+}
+
+.main-1 {
+    font-weight: bold;
+    color: aquamarine;
+    margin: 5px;
+}
+
+
+.section-12 {
+    background-image: linear-gradient(rgb(18, 19, 18), rgb(45, 73, 64), rgb(28, 31, 30));
+    color: white;
+    padding: 100px 300px;
+    text-align: center;
+    height: 500px;
+}
+
+.section-12 h1 {
+    margin: 10px;
+    color: aquamarine;
+    font-size: 50px;
+}
+
+.section-12 h2 {
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+
+.section-12 p {
+    font-size: 13px;
+    width: 400px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.section-12 ul {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-12 ul li {
+    color: aquamarine;
+    font-size: 15px;
+    list-style: none;
+    padding: 10px;
+}
